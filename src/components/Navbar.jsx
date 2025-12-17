@@ -8,8 +8,8 @@ export const Navbar = () => {
             <div class="container mx-auto px-4">
                 <div class="flex items-center justify-between h-16">
                     <a href="#" class="flex items-center gap-2 text-xl font-bold text-gray-900 dark:text-white hover:text-primary-500 dark:hover:text-primary-400 transition-colors">
-                        <img src="/favicon.ico" alt={`${APP_NAME} logo`} class="w-6 h-6" />
-                        <span>{APP_NAME}</span>
+                        <img src=" " alt={` `} class="w-6 h-6" />
+                        <span> </span>
                     </a>
                     <div class="flex items-center gap-3">
                         <a
@@ -19,7 +19,7 @@ export const Navbar = () => {
                             class="px-4 py-2 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2"
                         >
                             <i class="fas fa-book"></i>
-                            <span>Docs</span>
+                            <span> </span>
                         </a>
                         <a
                             href={GITHUB_REPO}
@@ -28,7 +28,7 @@ export const Navbar = () => {
                             class="px-4 py-2 text-gray-700 dark:text-gray-300 rounded-full text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors flex items-center gap-2 font-medium"
                         >
                             <i class="fab fa-github"></i>
-                            <span>GitHub</span>
+                            <span> </span>
                         </a>
                         <button
                             class="p-2 rounded-lg text-gray-500 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 transition-colors"
